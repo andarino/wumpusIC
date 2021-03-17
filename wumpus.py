@@ -31,8 +31,8 @@ def c_cantos(l, c):
 
 def main():
     A = crie_matriz(5,5,0)
-    A[1][1] = 'x'
-    A[1][0] = 'x'
+    A[0][0] = 'b'
+    A[0][1] = 'c'
     A[1][2] = 'x'
     A[1][3] = 'x'
     A[1][4] = 'x'
